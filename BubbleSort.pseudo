@@ -1,0 +1,28 @@
+/*Pseuodocode to Sort elements of an Array using Bubble Sort Alogorithm*/
+
+Start
+    Function bubbleSort(array)
+        set n=length of array
+            for i from 0 to (n-1)  // Iterate in array  - Outer loop
+                for j from 0 to (n - i - 1)  //Inner Loop 
+                    If the element at index j is greater than one at index j+1, then
+                        Swap array[j] with array[j+1]
+                    Endif
+                EndFor
+            EndFor
+    EndFunction
+
+    Function Main()
+        Declare arr[] as integer
+        arr={5,3,8,4,2}
+
+        Print "Original Array", arr
+
+        //Call Bubblesort function & pass array
+        Call bubbleSort(arr)
+
+        Print "\n\r Sorted Array : ",arr
+    EndFunction
+
+    Main()
+    Stop

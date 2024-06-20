@@ -1,0 +1,19 @@
+/*Pseudocode to find the Sun of all elements in a given array using Recursion*/
+
+Start   
+    Function findSum(arr,n)
+        if n is 0 then return 0 // BAse CAse: When no element is left consider
+
+        //Recursive call with reduced size by one and add current element to it
+        return (findSum(arr,n-1)+arr[n-1])  
+    EndFunction
+
+//Main
+    int arr[] = {2,3,4,5}
+
+    Print "Original Array is :", arr
+
+    int Sum=findSum(arr,5)
+
+    Print "Sum of Elements in the Array is:",Sum
+Stop

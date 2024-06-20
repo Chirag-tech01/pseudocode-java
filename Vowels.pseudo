@@ -1,0 +1,24 @@
+// Pseudocode to count number of vowels in String
+
+Start
+    Declare sentance as string
+    Declare count, index as Integer
+    Declare char as character
+
+    set index to 1
+    set count to 0
+
+    Print " Enter a Sentance :"
+    Input value for sentance
+
+    set sentance = sentance.toLowerCase()
+
+        while index <= length of sentance
+            char = char at index position in sentance
+                if char is equal to 'a' or 'e' 'i' or 'o' or 'u' then
+                     Increment count by 1
+                Endif
+             set index to index +1  //Move to next character in sentance
+        Endwhile
+        Print "The Number of Vowels in the sentance are:", count
+End

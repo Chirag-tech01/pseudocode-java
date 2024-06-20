@@ -1,0 +1,15 @@
+//Pseudocode to find factorial of a number
+
+Start
+    Declare n,i,fact as Integer
+
+    set fact to 1
+
+    Print "Enter a Limit :"
+    Read n from Input
+
+        for i from 1 to n
+            set fact = fact * i
+        Endfor
+    Print "The Factorial is :", fact
+Stop

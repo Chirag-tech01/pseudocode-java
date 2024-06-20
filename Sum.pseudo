@@ -1,0 +1,13 @@
+/*Pseudocode to find sum of 2 Numbers */
+
+Start
+    Declare variables num1,num2,sum as Integer
+
+    Input value for num1
+    Input value for num2
+
+    Set sum = num1 + num2
+
+    Output 'The sum is: ', sum
+    Print "My first Pseudo Code in VS Code Editor"
+End

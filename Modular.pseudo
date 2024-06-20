@@ -1,0 +1,46 @@
+/*Pseudocode for college Managment system using Modular Proramming Approach*/
+
+Start
+    Module1: Student_Module
+        Function addStudent(rollNo,name)
+            Print "Adding New Student"+ name +"With Roll No. "+ rollNo
+        EndFunction
+        
+        Function displayStudentInfo(rollNo)
+            Print "********* STUDENT INFORMATION **************"
+            Print "Roll Number :", rollNo;
+            Print "Student Name :", name;
+            Print "****************************************************"
+        EndFunction
+    EndModule1
+
+    Module2: Exam_Module
+        Function addMarks(rollNo,subject,makrs)
+            Print "Adding Marks to the Students with Roll No.", rollNo, "in Subjects.", subject
+        EndFunction
+
+        Function displayMarks
+            Print "Marks of each Subjects are as follows:"
+            for i=0 To n(Number of Subjects added)
+                Print "Subject", i+1," Makeks":
+            EndFor
+        EndFunction
+
+    EndModule2
+
+    //Main Program
+    Function Main()
+        //Call Functions from student Module
+        call Student_Module.addStudent("001," "John Doe")
+        call Student_Module.displayMarks("001")
+
+        //Call functions from exam Module 
+        call Exam_Module.addMarks("001", "Mathematics", 85)
+        call Exam_Module.addMarks("001", "Computer Science", 78)
+        call Exam_Module.addMarks("001", "Environment", 64)
+    EndFunction
+
+    Call Main()
+
+    Stop
+

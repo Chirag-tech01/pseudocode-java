@@ -1,0 +1,14 @@
+/*Pseudocode to check wether entered number is Odd or Even */
+
+Start
+    Declare num as Integer
+
+    Print "Enter a Number :"
+    Input value for num
+
+        if the remainder of (num/2) equals zero then
+             Print "The Number is Even"
+        else
+            Print "The Number is Odd."
+        endIf
+End

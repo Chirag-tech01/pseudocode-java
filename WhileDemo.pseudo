@@ -1,0 +1,12 @@
+//Pseudocode to display numbers from 1-10 using looping constructs
+//Display Name 10 times
+
+Start
+    Declare counter as Integer
+    set counter to 1     // Initialize a loop
+
+        while counter <=10    // Condition for the loop 
+            Print "James Gosling" + counter
+            Increment counter by 1   // Increase value of counter
+        Endwhile
+End

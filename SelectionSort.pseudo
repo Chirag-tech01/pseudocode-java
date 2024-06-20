@@ -1,0 +1,43 @@
+/*Pseuodocode to Sort elements of an Array using Selection Sort Alogorithm
+
+This pseudocode outlines the steps of the Selection Sort algorithm.
+It iterates through the list, finds the index of the minimum element in the unsorted part,
+and swaps it with the first element of the unsorted part.
+This process repeats until the entire list is sorted.
+
+*/
+
+Start
+    Function SelectionSort(array)
+       Set n=length of array
+            For i from 0 to(n-2)  // Iterate through array except the last element
+                Set minIndex=i  // Assume current index as minimum
+
+                For j=(i+1) to n-1  // start from next of i+1 till end of array
+
+                    //if we found a smaller element make minIndex that element's index
+                    if array[j]<array[minIndex] then
+                        Set minIndex=j 
+                    Endif
+                EndFor
+                If minIndex !=i then 
+                //Swap only when the smallest is not at its correct position
+                    Swap array[i] and array[minIndex]
+                Endif
+            EndFor
+    EndFunction
+
+    Function Main()
+        Declare arr[] as integer
+        arr={5,3,8,4,2}
+
+        Print "Original Array", arr
+
+        //Call Selection sort function & pass array
+        Call SelectionSort(arr)
+
+        Print "\n\r Sorted Array : ",arr
+    EndFunction
+
+    Main()
+    Stop

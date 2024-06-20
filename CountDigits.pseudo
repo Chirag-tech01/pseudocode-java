@@ -1,0 +1,21 @@
+// Pseudocode to check Number of Digits in a Number
+/* Author: Chirag Barotia
+    Date: 25/04/2024
+*/
+
+Start
+    Declare num as Integer
+
+    Print "Enter a Number"
+    Input value for num
+
+        if num < 10 and num > 0 then
+            Print "The Number is Single Digit"
+        elseif num < 100 and num > 9 then 
+            Print "The Number is Double Digit"
+        elseif num <=999 and num > 99 then
+            Print "The Number is Triple Digit"
+        else
+            Print "The Number is not Sungle Digit"
+        endIf
+End

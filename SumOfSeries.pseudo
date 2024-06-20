@@ -1,0 +1,19 @@
+// Pseudocode to find sum of series . 1 + 2+3+4+5.....n
+//Author : Chirag Barotia
+// Date : 05/09
+
+Start
+    Declare counter, sum,n as Integer
+
+    Print "Enter the Limit :"
+    Input value for n
+
+    set counter=1
+    set sum = 0
+
+        while counter <= n 
+            set sum = sum + counter
+            Increment counter by 1
+        Endwhile
+    Print "The Sum of series is:" sum
+End

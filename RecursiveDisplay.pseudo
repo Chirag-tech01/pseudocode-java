@@ -1,0 +1,15 @@
+/* Pseudocode to display nos from 1-n witout using Loops - recursive solotion*/
+
+Start
+    Function  displayNos(n)
+        if(n <=0) then return;    // Base case: When number is zero or negative, stop recursion.
+        else 
+            displayNos(n-1)    //Recursive call with n-1 value
+            Print (n+" ")         //Display the current number in LIFO -STACK
+    EndFunction
+
+//Main
+    Declare n as Integer
+    Set n=10
+    displayNos(n) //Invoke recursive function
+Stop

@@ -1,0 +1,38 @@
+/*
+Pseudocode to perform Arithmetic Operations using select case
+Author: Chirag
+*/
+
+Start
+    Declare num1, num2, result as Integer
+    Declare operator as string
+
+    Prompt user for the first number
+    Input num1
+    Prompt user for the Second number
+    Input num2
+    Prompt user for Arithmetic operator(+.-,*,/)
+    Input operator
+
+    select operator
+        case "+" then
+                    set result=num1+num2
+                    Print "The Addition is :",result
+                    Break
+        case "-" then
+                    set result=num1-num2
+                    Print "The Subtraction is :",result
+                    Break
+        case "*" then
+                    set result=num1*num2
+                    Print "The Multiplication is :",result
+                    
+        case "/" then
+                    set result=num1/num2
+                    Print "The Division is :",result
+                    Break
+        default then
+                    Print "Invalid Operator :"
+                    Break
+     Endselect
+End               

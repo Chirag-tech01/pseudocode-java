@@ -1,0 +1,17 @@
+//Pseudocode to sum all Positive Number entered by user
+//Do-While Looping Construct
+
+Start
+    Declare number, sum, as Integer
+    set sum to 0
+
+    Do 
+        Prompt the user "Enter a Positive Number"
+        Read the Input into number
+        
+        set sum = sum+number
+
+        while(number>=0)    // Check if number is positive or not
+    End
+    Print "The Sum of All Positive Number Entered is :",sum
+Stop

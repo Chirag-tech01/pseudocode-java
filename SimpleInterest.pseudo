@@ -1,0 +1,14 @@
+/*Pseudo code to calculate Simple Interest for a Loan
+si = principal*term*rateOfInterst/100
+*/
+Start
+    Declare principal, term, rateOfInterst as Integer
+    Declare si as Float
+
+    Input value for principal, term, rateOfInterst
+
+    Set si=principal*term*rateOfInterst/100
+
+    Output "Simple interest of loan: " +si
+End
+

@@ -1,0 +1,24 @@
+/*Pseudocode to find Sqaure of a number Using Functions*/
+
+Start
+
+//Define Function named square that takes integer as input
+Function square(num as integer)
+    Declare result as integer //Declare local variable
+    Set result = num * num
+    Return the value of result //Return the squared Number
+EndFunction
+
+Function Main()
+    Declare n,result as integer
+
+    print 'Enter a positive integer:' 
+    Input Value for n
+
+    //Call sqaure function
+    Set result = sqaure(30)
+
+    Print "The Sqaure of a number 30 is : "result
+EndFunction
+
+Stop

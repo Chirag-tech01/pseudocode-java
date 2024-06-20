@@ -1,0 +1,17 @@
+// Pseudocode to find greatest of 3 numbers
+
+Start
+    Declare three variables num1, num2, num3, greatest as Integers
+
+    Prompt  the user to enter valuefor num1, num2 and num3
+    Input value for num1, num2, num3
+
+     if (num1 > num2) then and (num1 > num3) then
+          Set greatest=num1
+    else if (num2 > num3) then
+             set greatest=num3
+     else
+            set greatest=num3
+     Endif
+    Print "The Greatest Number amoung", num1," , ", num2, "and", ", " num3 "is:", greatest
+End

@@ -1,0 +1,13 @@
+// Pseudo code to find Area of a circle
+
+Start
+    Declare radius,area as Float
+    Initialise PI=3.14
+
+    Input value for radius
+
+    Set area = PI * radius * radius
+
+    Print "The Area of Circle is : "+area
+
+End

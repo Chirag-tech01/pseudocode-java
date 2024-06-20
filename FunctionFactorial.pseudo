@@ -1,0 +1,27 @@
+/*Pseudocode to find Factorial of a number using Functions*/
+
+Start
+    Function Factorial(num as integer)
+        if num is equal to 0 then
+             return 1  :
+        Endif 
+        Declare variable Factorial
+        Set fact to 1
+
+        For i from 1 to num
+             Set fact = fact * i
+        EndFor
+
+        Return the value fact 
+    EndFunction
+//Main Program
+Declare number,result as integer
+
+Print "Enter a Number :"
+Input Number
+
+//Call Factorial Function with number and store it in result
+
+Print "The Factorial of a number is :"+result
+
+Stop

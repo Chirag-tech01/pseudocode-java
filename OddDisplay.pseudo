@@ -1,0 +1,13 @@
+// Pseudocode to display odd Numbers between 1 and 20
+
+Start
+    Declare counter as Integer
+    set counter = 1
+
+        while counter <= 20
+            if(counter mod 2) is equal to 1 then
+                Display the value of counter
+            Endif
+            Increment counter by 1
+        Endwhile
+End

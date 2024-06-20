@@ -1,0 +1,16 @@
+/*Pseudocode to find Greatest of 2 Numbers*/
+
+Start
+    Declare num1, num2 as Integer
+
+    Print "Enter First Number"
+    Input value for num1
+    Print "Enter Second Number"
+    Input value for num2
+
+        If num1 is greater than num2 then
+            Print "The Greatest Number is : ", num1
+        Else
+            Print "The Greatest Number is :", num2
+        EnndIf
+End
